@@ -1,0 +1,17 @@
+node {
+    
+    stage('Preparation') { 
+        // Get some code from a GitHub repository
+        git 'https://github.com/tabarrial/friday-test-iac-kk-sample.git'
+        
+    }
+    stage('Build') {
+        
+    }
+    stage('Deploy') {
+        
+    }
+    stage('Security'){
+        
+    }
+}
