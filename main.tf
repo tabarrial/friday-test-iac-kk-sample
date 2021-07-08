@@ -5,7 +5,7 @@ module "ec2-test" {
   name                   = "ec2-test"
   instance_count         = 1
   ami                    = "ami-0a8e758f5e873d1c1"
-  instance_type          = "t3a.medium"
+  instance_type          = "t3a.micro"
   key_name               = "friday-key"
   vpc_security_group_ids = ["sg-64402500"]
   subnet_id              = "subnet-f20044ab"
